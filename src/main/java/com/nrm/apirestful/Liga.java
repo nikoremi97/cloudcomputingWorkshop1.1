@@ -30,7 +30,7 @@ public class Liga {
         equipos = new HashMap<String, Equipo>();
         FileInputStream fileInput = null;
         try {
-            File file = new File("C:\\Users\\Nicolás\\Documents\\NetBeansProjects\\apirestful\\docs\\equipos.properties");
+            File file = new File("/docs/equipos.properties");
 
             fileInput = new FileInputStream(file);
             Properties properties = new Properties();
